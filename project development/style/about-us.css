@@ -1,0 +1,103 @@
+:root {
+
+    --primery-color: #364358;
+    --secendey-color: #FBB001;
+    --bg-color: #FEFEFE;
+    --gray-color: #67696B;
+    --black-color: #0D1014;
+    --font-regular: "IRANsans";
+    --font-medium: "IRANsans Medium";
+    --font-bold: "IRANsans Bold";
+
+}
+.about-us {
+    margin-top: 5rem;
+}
+.about-us-werraper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 2rem 1.6rem;
+    background-color: #fff;
+    border-radius: 4rem;
+    box-shadow: 4px -4px 40px rgba(216, 216, 216,20%),-4px 4px 16px rgba(216, 216, 216,20%);
+}
+
+.about-us-img img {
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.about-us-content-title {
+    font-family: var(--font-bold);
+    color: var(--black-color);
+    font-size: 2rem;
+}
+.about-us-content-caption {
+    font-family: var(--font-regular);
+    color: var(--black-color);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.8;
+}
+.about-us-content-links {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.about-us-content-link1,.about-us-content-link2 {
+    font-family: var(--font-medium);
+    color: var(--black-color);
+    font-size: 1.8rem;
+    padding: 1rem 1.6rem;
+    border-radius: 0.8rem;
+}
+.about-us-content-link1 {
+    border: 1px solid var(--secendey-color);
+}
+.about-us-content-link2 {
+    background-color: var(--secendey-color);
+}
+
+
+.Choose-about-us {
+    margin-top: 5rem;
+}
+.Choose-about-us-werraper {
+    background-color: #fff;
+    border-radius: 4rem;
+    padding: 3rem 5rem;
+    box-shadow: 4px -4px 40px rgba(216, 216, 216,20%),-4px 4px 16px rgba(216, 216, 216,20%);
+}
+.Choose-about-us__title {
+    text-align: center;
+   
+    font-family: var(--font-medium);
+    color: var(--black-color);
+}
+.Choose-about-us-box {
+   
+    margin-top: 5rem;
+}
+.Choose-about-us-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Choose-about-us-content__img {
+    width: 11rem;
+    height: 8rem;
+    object-fit: contain;
+}
+.Choose-about-us-content__caption {
+    font-size: 1.8rem;
+    font-family: var(--font-medium);
+    color: var(--black-color);
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+

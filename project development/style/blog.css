@@ -1,0 +1,187 @@
+:root {
+
+    --primery-color: #364358;
+    --secendey-color: #FBB001;
+    --bg-color: #FEFEFE;
+    --gray-color: #67696B;
+    --black-color: #0D1014;
+    --font-regular: "IRANsans";
+    --font-medium: "IRANsans Medium";
+    --font-bold: "IRANsans Bold";
+
+}
+.articles-Latest {
+    margin-top: 5rem;
+}
+.Latest-articles-title{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.Latest-articles-title__text {
+    font-family: var(--font-bold);
+    color: var(--black-color);
+    font-size: 2rem;
+
+}
+.Latest-articles-werraper {
+    margin-top: 3rem;
+}
+.Latest-articles-box {
+    background-color: #fff;
+    border-radius: 1rem;
+    
+}
+.Latest-articles-box__img {
+    width: 100%;
+    height: 42rem;
+    border-radius: 1.2rem;
+    object-fit: cover;
+
+}
+.Latest-articles-box__title {
+    font-family: var(--font-medium);
+    color: var(--black-color);
+    font-size: 1.8rem;
+   margin-top: 2rem;
+    
+}
+.Latest-articles-box__caption {
+    color: var(--gray-color);
+  
+    margin-top: 1.6rem;
+    line-height: 1.8;
+    
+}
+.Latest-articles-box__link{
+    
+    color: var(--black-color);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    padding: 1rem 0;
+    border: 1px solid var(--secendey-color);
+    margin-top: 1rem;
+
+}
+.Latest-articles-werraper-bottom__link{
+
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin-right: auto;
+    color: var(--black-color);
+    font-family: var(--font-medium);
+    background-color: var(--secendey-color);
+    padding: 1rem ;
+    border-radius: 0.8rem;
+    margin-bottom: 0;
+}
+.sidbar-werraper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.articles-sidbar {
+  
+    background-color: #fff;
+    border-radius: 1.2rem;
+    box-shadow: 4px -4px 40px  rgba(222, 222, 222, 20%),-4px 4px 16px  rgba(222, 222, 222, 20%);
+    padding: 2rem;
+    flex-grow: 1;
+
+
+}
+.articles-sidbar-title {
+    font-size: 1.6rem;
+    font-family: var(--font-medium);
+    color: var(--black-color);
+       
+}
+.articles-sidbar-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.articles-sidbar-list__item a{
+    font-size: 1.4rem;
+    font-family: var(--font-regular);
+    color: var(--black-color);
+}
+
+.articles {
+    margin-top: 5rem;
+}
+.articles-werraper {
+    margin-top: 3rem;
+}
+.articles-title{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.articles-title__text{
+
+  
+    font-family: var(--font-medium);
+    color: var(--black-color);
+    font-size: 2rem;
+}
+.articles-box {
+    background-color: #fff;
+    border-radius: 1rem;
+   
+}
+.articles-box__img {
+    width: 100%;
+    height: 35rem;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+.articles-box__title {
+    font-family: var(--font-medium);
+    color: var(--black-color);
+    font-size: 1.8rem;
+   margin-top: 2rem;
+}
+.articles-box__caption {
+    color: var(--gray-color);
+    margin-top: 1.6rem;
+    line-height: 1.8;
+}
+.articles-box__link{
+    color: var(--black-color);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    padding: 1rem 0;
+    border: 1px solid var(--secendey-color);
+    margin-top: 1rem;
+
+}
+.articles-link{
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin-right: auto;
+    color: var(--black-color);
+    font-family: var(--font-medium);
+    background-color: var(--secendey-color);
+    padding: 1rem ;
+    border-radius: 0.8rem;
+}

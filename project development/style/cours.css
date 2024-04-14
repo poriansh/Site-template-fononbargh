@@ -1,0 +1,22 @@
+:root {
+
+    --primery-color: #364358;
+    --secendey-color: #FBB001;
+    --bg-color: #FEFEFE;
+    --gray-color: #67696B;
+    --black-color: #0D1014;
+    --font-regular: "IRANsans";
+    --font-medium: "IRANsans Medium";
+    --font-bold: "IRANsans Bold";
+
+}
+.category-departeman__title{
+    text-align: start;
+}
+.cours-category-departeman-werraper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}

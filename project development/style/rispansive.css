@@ -1,0 +1,286 @@
+@media (min-width : 400px){
+
+    .contact-about-werraper{
+        height: 14rem;
+    }
+}
+@media (min-width : 576px){
+
+    .Choose-about-us__title{
+        font-size: 2.4rem;
+    }
+    .footer-content{
+        justify-content: space-between;
+    }
+    .footer-werraper{
+        padding: 4rem 8rem;
+    }
+    .contact-about-werraper{
+        height: 20rem;
+    }
+    .nav-mobail{
+        width: 350px;
+    }
+    aside>ul>li>ul>li>ul>li>a{
+        font-size: 1.6rem;
+    }
+    aside>ul>li>ul>li>ul>li>ul>li>a{
+        font-size: 1.4rem;
+    }
+    .naigation {
+        display: flex;
+    }
+    .Property-tuition-box {
+        padding: 4rem 4rem;
+    }
+    .cours-Headline-title__text{
+        font-size: 2rem;
+    }
+    .cours-Headline-box__title{
+        font-size: 1.6rem;
+    }
+    .Frequently-question-box-title__text{
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width : 768px){
+    
+    .slider{
+        display: block;
+    }
+    .about-home-werraper{
+        flex-direction: row-reverse;
+    }
+    .about-home-img{
+        flex-basis: 50%;
+    }
+    .about-home-content{
+        flex-basis: 50%;
+    }
+    .about-us-werraper{
+        flex-direction: row-reverse;
+    }
+    .about-us-img{
+        flex-basis: 50%;
+    }
+    .about-us-content{
+        flex-basis: 50%;
+    }
+    .Choose-us-content-box__title{
+        font-size: 1.6rem;
+    }
+    .breadcrumbs{
+        font-size: 1.6rem;
+    }
+    .breadcrumbs__link {
+        font-size: 1.6rem;
+    }
+    .contact-us-title{
+        font-size: 2rem;
+    }
+    .footer-icon{
+        justify-content: flex-end;
+    }
+    .contact-about-contant{
+        display: flex;
+    }
+    .contact-about-werraper{
+        height: 20rem;
+    }
+    .mobail{
+        display: none;
+    }
+    .sidbar-werraper{
+        flex-direction: row;
+    }
+    .Property-tuition{
+        flex-direction: row;
+    }
+    .comment-form__input {
+        width: 48%;
+    }
+    .contact-cours-input{
+        width: 49%;
+    }
+    .naigation-werraper {
+        justify-content: center;
+        gap: 2rem;
+    }
+    .naigation-link{
+        font-size: 1.6rem;
+    }
+  
+   
+    
+   
+        
+}
+@media (min-width : 992px){
+    .toggel-menu{
+        display: none;
+    }
+    .header-links{
+
+        display: flex;
+
+    }
+    .menu {
+        display: flex;
+        gap: 2rem;
+    }
+    .nav{
+        gap: 2rem;
+    }
+    .slider-werraper{
+        height: 37rem;
+        gap: 15rem;
+        padding-right: 10rem;
+    }
+    .slider-content-title{
+        font-size: 3rem;
+    }
+    .slider-content-link{
+
+        font-size: 1.8rem;
+    }
+    .about-home-img{
+        flex-basis: 30%;
+    }
+    .about-home-content{
+        flex-basis: 70%;
+    }
+    .about-us-img{
+        flex-basis: 30%;
+    }
+    .about-us-content{
+        flex-basis: 70%;
+    }
+    .about-home-content-caption{
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+    .about-us-content-caption{
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+    .Choose-us-content{
+        flex-direction: row;
+    }
+    .category-departeman-werraper{
+        position: sticky;
+        top: 0;
+        justify-content: space-between;
+    }
+    .contact-us-werraper{
+        flex-direction: row;
+    }
+    .input-box{
+        width: 48%;
+    }
+    .contact-us-img{
+        display: block;
+      
+    }
+    .contact-us-form {
+        margin:3rem;
+        border: 1px solid #E7E7E7;
+    }
+    .contact-about-werraper{
+        height: 30rem;
+    }
+    .contact-about-contant__title {
+        font-size: 1.8rem;
+    }
+    .sidbar-werraper{
+        flex-direction: column;
+    }
+    .articles{
+        display: block;
+    }
+    .articles-mobail{
+        display: none;
+    }
+    .nav-mobail{
+        display: none;
+    }
+    .about-cours-werraper{
+        flex-direction: row-reverse;
+    }
+    .Property-werraper {
+    flex-direction: row;
+    }
+    .comment-form {
+        width: 70%;
+    }
+    .naigation-werraper {
+       
+        gap: 4rem;
+    }
+    .naigation-link{
+        font-size: 1.8rem;
+    }
+    
+}
+@media (min-width : 1200px){
+    
+    .menu__link{
+        font-size: 1.8rem;
+    }
+    .header-link {
+        font-size: 1.8rem;
+    }
+    .menu {
+        
+        gap: 4rem;
+    }
+    .nav{
+        gap: 4rem;
+    }
+    .slider-werraper{
+        height: 45rem;
+        gap: 20rem;
+        padding-right: 10rem;
+    }
+    .slider-content-title{
+        font-size: 3rem;
+    }
+    .slider-content-link{
+
+        font-size: 1.8rem;
+    }
+    .slider-links{
+        margin-top: 20rem;
+    }
+    .contact-about-contant__title{
+        font-size: 2.4rem;
+    }
+    .mega>ul>li .mega-submenu {
+        width: 84rem;
+    }
+}
+@media (min-width : 1400px ){
+    .slider-werraper{
+        height: 55rem;
+        gap: 30rem;
+        padding-right: 10rem;
+    }
+    .contact-about-werraper{
+        height: 36rem;
+    }
+    .mega>ul>li .mega-submenu {
+        width: 107rem;
+    }
+   
+}
+
+    
+    
+
+
+        
+
+
+
+
+        
